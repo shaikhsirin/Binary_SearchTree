@@ -19,6 +19,8 @@ public class BinarySearch {
 
         System.out.println(" Element present in the tree :: "+ tree.searchNode(node,63));
         System.out.println();
+        System.out.println("Level order traversal of binary tree is ");
+        tree.inorderTraversal(node);
 
 
     }
