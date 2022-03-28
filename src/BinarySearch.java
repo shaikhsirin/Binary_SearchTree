@@ -3,6 +3,22 @@ public class BinarySearch {
         System.out.println("WELCOME TO BINARY-SEARCH-PROGRAM");
         Node.NodeBinarySearch tree = new Node.NodeBinarySearch();
         Node node = new Node();
+        tree.insert(node, 56);
+        tree.insert(node,30);
+        tree.insert(node,70);
+        tree.insert(node,22);
+        tree.insert(node,40);
+        tree.insert(node,11);
+        tree.insert(node,3);
+        tree.insert(node,16);
+        tree.insert(node,60);
+        tree.insert(node,95);
+        tree.insert(node,65);
+        tree.insert(node,63);
+        tree.insert(node,67);
+
+        System.out.println(" Element present in the tree :: "+ tree.searchNode(node,63));
+        System.out.println();
 
 
     }
